@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		217B445B6B3710B6ECFDCA0B /* Pods_SwiftOFX_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A626B48D361544BF943344 /* Pods_SwiftOFX_macOS.framework */; };
+		3A82BE392357A2360075BBB4 /* Reggie in Frameworks */ = {isa = PBXBuildFile; productRef = 3A82BE382357A2360075BBB4 /* Reggie */; };
+		3A82BE3B2357A2B70075BBB4 /* Reggie in Frameworks */ = {isa = PBXBuildFile; productRef = 3A82BE3A2357A2B70075BBB4 /* Reggie */; };
+		3A82BE3D2357A3D10075BBB4 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A82BE3C2357A3D10075BBB4 /* Package.swift */; };
 		42783634288D477B4708EE4F /* Pods_SwiftOFX_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCC7476FBF8A0CF23A7D29A /* Pods_SwiftOFX_iOS_Tests.framework */; };
-		814EDCA672C95740076590C1 /* Pods_SwiftOFX_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C15FECFE67581B751566FF /* Pods_SwiftOFX_iOS.framework */; };
 		AAC029CA2059AF6A00D79B2C /* SwiftOFX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7AABF81E653F9E00D99296 /* SwiftOFX.framework */; };
 		AADC118B1E7F9B3E008C5B52 /* Date+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADC117B1E7F9B3E008C5B52 /* Date+Parser.swift */; };
 		AADC118C1E7F9B3E008C5B52 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = AADC117C1E7F9B3E008C5B52 /* Element.swift */; };
@@ -55,14 +56,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		167A2E3C20C0D9BC58E3A123 /* Pods-SwiftOFX macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX macOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX macOS/Pods-SwiftOFX macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		17AD35D111EFE9B3F2A7D672 /* Pods-SwiftOFX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX/Pods-SwiftOFX.release.xcconfig"; sourceTree = "<group>"; };
-		2C656904E5E0FAE805B1F074 /* Pods-SwiftOFX iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX iOS/Pods-SwiftOFX iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		3FA666212D249D84C4FC3B87 /* Pods-SwiftOFX iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX iOS/Pods-SwiftOFX iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3A82BE3C2357A3D10075BBB4 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		4FCC7476FBF8A0CF23A7D29A /* Pods_SwiftOFX_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFX_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		601626E9BF5DA82936FD735E /* Pods-SwiftOFXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFXTests/Pods-SwiftOFXTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5A626B48D361544BF943344 /* Pods_SwiftOFX_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFX_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9942534B14F7962CC97C771 /* Pods-SwiftOFX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX/Pods-SwiftOFX.debug.xcconfig"; sourceTree = "<group>"; };
 		AA7AABF81E653F9E00D99296 /* SwiftOFX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOFX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA7AAC011E653F9E00D99296 /* SwiftOFXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOFXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADC117B1E7F9B3E008C5B52 /* Date+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Parser.swift"; sourceTree = "<group>"; };
@@ -85,13 +81,7 @@
 		AADC11C61E7F9EB4008C5B52 /* SwiftOFX.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftOFX.podspec; sourceTree = "<group>"; };
 		B14AEEA2AAEE54CEDDF83E59 /* Pods_SwiftOFX_macOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFX_macOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C15FECFE67581B751566FF /* Pods_SwiftOFX_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFX_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE00675836D93E940D5D8AC6 /* Pods-SwiftOFXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFXTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFXTests/Pods-SwiftOFXTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C5683C3FCED823D0EA7D484F /* Pods-SwiftOFX macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX macOS/Pods-SwiftOFX macOS.release.xcconfig"; sourceTree = "<group>"; };
-		C990CC6B1279988DB650849A /* Pods-SwiftOFX macOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX macOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX macOS Tests/Pods-SwiftOFX macOS Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DA1D48DB172B76C0B76E2BF4 /* Pods-SwiftOFX iOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX iOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX iOS Tests/Pods-SwiftOFX iOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E68E9681D0B5552B1E667E15 /* Pods_SwiftOFXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F22787203CD0AA75EED10246 /* Pods-SwiftOFX iOS Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX iOS Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX iOS Tests/Pods-SwiftOFX iOS Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4218D93D3440FD9D420D793 /* Pods-SwiftOFX macOS Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftOFX macOS Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftOFX macOS Tests/Pods-SwiftOFX macOS Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FC846FDB5529FA868947930D /* Pods_SwiftOFX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftOFX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				217B445B6B3710B6ECFDCA0B /* Pods_SwiftOFX_macOS.framework in Frameworks */,
+				3A82BE392357A2360075BBB4 /* Reggie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814EDCA672C95740076590C1 /* Pods_SwiftOFX_iOS.framework in Frameworks */,
+				3A82BE3B2357A2B70075BBB4 /* Reggie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,13 +126,13 @@
 		AA7AABEE1E653F9E00D99296 = {
 			isa = PBXGroup;
 			children = (
+				3A82BE3C2357A3D10075BBB4 /* Package.swift */,
 				AADC11C41E7F9EA2008C5B52 /* LICENSE */,
 				AADC11C51E7F9EAC008C5B52 /* README.md */,
 				AADC11C61E7F9EB4008C5B52 /* SwiftOFX.podspec */,
 				AADC117A1E7F9B3E008C5B52 /* Source */,
 				AADC11851E7F9B3E008C5B52 /* Tests */,
 				AADC11CB1E7F9FDE008C5B52 /* Products */,
-				FAF30A499AA61CF1110E827D /* Pods */,
 				E11AA2B8178D81FE8D3CCB59 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -224,25 +214,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FAF30A499AA61CF1110E827D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A9942534B14F7962CC97C771 /* Pods-SwiftOFX.debug.xcconfig */,
-				17AD35D111EFE9B3F2A7D672 /* Pods-SwiftOFX.release.xcconfig */,
-				BE00675836D93E940D5D8AC6 /* Pods-SwiftOFXTests.debug.xcconfig */,
-				601626E9BF5DA82936FD735E /* Pods-SwiftOFXTests.release.xcconfig */,
-				2C656904E5E0FAE805B1F074 /* Pods-SwiftOFX iOS.debug.xcconfig */,
-				3FA666212D249D84C4FC3B87 /* Pods-SwiftOFX iOS.release.xcconfig */,
-				DA1D48DB172B76C0B76E2BF4 /* Pods-SwiftOFX iOS Tests.debug.xcconfig */,
-				F22787203CD0AA75EED10246 /* Pods-SwiftOFX iOS Tests.release.xcconfig */,
-				167A2E3C20C0D9BC58E3A123 /* Pods-SwiftOFX macOS.debug.xcconfig */,
-				C5683C3FCED823D0EA7D484F /* Pods-SwiftOFX macOS.release.xcconfig */,
-				F4218D93D3440FD9D420D793 /* Pods-SwiftOFX macOS Tests.debug.xcconfig */,
-				C990CC6B1279988DB650849A /* Pods-SwiftOFX macOS Tests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -269,18 +240,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA7AAC0C1E653F9E00D99296 /* Build configuration list for PBXNativeTarget "SwiftOFX macOS" */;
 			buildPhases = (
-				CF366392702AB8A2A9CAB69F /* [CP] Check Pods Manifest.lock */,
 				AA7AABF31E653F9E00D99296 /* Sources */,
 				AA7AABF41E653F9E00D99296 /* Frameworks */,
 				AA7AABF51E653F9E00D99296 /* Headers */,
 				AA7AABF61E653F9E00D99296 /* Resources */,
-				1386F58C9C1FC5D208A2C917 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SwiftOFX macOS";
+			packageProductDependencies = (
+				3A82BE382357A2360075BBB4 /* Reggie */,
+			);
 			productName = SwiftOFX;
 			productReference = AA7AABF81E653F9E00D99296 /* SwiftOFX.framework */;
 			productType = "com.apple.product-type.framework";
@@ -310,18 +282,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADC11B21E7F9C39008C5B52 /* Build configuration list for PBXNativeTarget "SwiftOFX iOS" */;
 			buildPhases = (
-				EB6A5495DEE6D99ACB702EC9 /* [CP] Check Pods Manifest.lock */,
 				AADC119C1E7F9C39008C5B52 /* Sources */,
 				AADC119D1E7F9C39008C5B52 /* Frameworks */,
 				AADC119E1E7F9C39008C5B52 /* Headers */,
 				AADC119F1E7F9C39008C5B52 /* Resources */,
-				9849D23D8426A575BF306797 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SwiftOFX iOS";
+			packageProductDependencies = (
+				3A82BE3A2357A2B70075BBB4 /* Reggie */,
+			);
 			productName = SwiftOFX;
 			productReference = AADC11A11E7F9C39008C5B52 /* SwiftOFX.framework */;
 			productType = "com.apple.product-type.framework";
@@ -384,9 +357,13 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = AA7AABEE1E653F9E00D99296;
+			packageReferences = (
+				3A82BE372357A2360075BBB4 /* XCRemoteSwiftPackageReference "Reggie" */,
+			);
 			productRefGroup = AADC11CB1E7F9FDE008C5B52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -433,21 +410,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1386F58C9C1FC5D208A2C917 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOFX macOS/Pods-SwiftOFX macOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		25E5F516884316E4907F5FE1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,39 +494,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOFX iOS Tests/Pods-SwiftOFX iOS Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9849D23D8426A575BF306797 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftOFX iOS/Pods-SwiftOFX iOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF366392702AB8A2A9CAB69F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftOFX macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		D3ED952E32814E29D39E1ACD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -583,24 +512,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB6A5495DEE6D99ACB702EC9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftOFX iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -612,6 +523,7 @@
 				AADC118F1E7F9B3E008C5B52 /* MerchantCategory.swift in Sources */,
 				AADC11901E7F9B3E008C5B52 /* Parser.swift in Sources */,
 				AADC11931E7F9B3E008C5B52 /* Tokenizer.swift in Sources */,
+				3A82BE3D2357A3D10075BBB4 /* Package.swift in Sources */,
 				AADC11921E7F9B3E008C5B52 /* Token.swift in Sources */,
 				AADC118B1E7F9B3E008C5B52 /* Date+Parser.swift in Sources */,
 				AADC118D1E7F9B3E008C5B52 /* Finance.swift in Sources */,
@@ -770,7 +682,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -778,7 +691,6 @@
 		};
 		AA7AAC0D1E653F9E00D99296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 167A2E3C20C0D9BC58E3A123 /* Pods-SwiftOFX macOS.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -790,7 +702,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFX;
 				PRODUCT_NAME = SwiftOFX;
@@ -803,7 +719,6 @@
 		};
 		AA7AAC0E1E653F9E00D99296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5683C3FCED823D0EA7D484F /* Pods-SwiftOFX macOS.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -815,7 +730,11 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFX;
 				PRODUCT_NAME = SwiftOFX;
@@ -827,12 +746,15 @@
 		};
 		AA7AAC101E653F9E00D99296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4218D93D3440FD9D420D793 /* Pods-SwiftOFX macOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFXTests;
 				PRODUCT_NAME = SwiftOFXTests;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -842,12 +764,15 @@
 		};
 		AA7AAC111E653F9E00D99296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C990CC6B1279988DB650849A /* Pods-SwiftOFX macOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFXTests;
 				PRODUCT_NAME = SwiftOFXTests;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -857,7 +782,6 @@
 		};
 		AADC11B31E7F9C39008C5B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C656904E5E0FAE805B1F074 /* Pods-SwiftOFX iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -868,7 +792,11 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFX;
 				PRODUCT_NAME = SwiftOFX;
 				SDKROOT = iphoneos;
@@ -881,7 +809,6 @@
 		};
 		AADC11B41E7F9C39008C5B52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA666212D249D84C4FC3B87 /* Pods-SwiftOFX iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -892,7 +819,11 @@
 				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFX;
 				PRODUCT_NAME = SwiftOFX;
 				SDKROOT = iphoneos;
@@ -906,13 +837,16 @@
 		};
 		AADC11B61E7F9C39008C5B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA1D48DB172B76C0B76E2BF4 /* Pods-SwiftOFX iOS Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFXTests;
 				PRODUCT_NAME = "SwiftOFX Tests";
 				SDKROOT = iphoneos;
@@ -923,13 +857,16 @@
 		};
 		AADC11B71E7F9C39008C5B52 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F22787203CD0AA75EED10246 /* Pods-SwiftOFX iOS Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = brun.steve.SwiftOFXTests;
 				PRODUCT_NAME = "SwiftOFX Tests";
 				SDKROOT = iphoneos;
@@ -988,6 +925,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A82BE372357A2360075BBB4 /* XCRemoteSwiftPackageReference "Reggie" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/stevebrun/Reggie.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A82BE382357A2360075BBB4 /* Reggie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A82BE372357A2360075BBB4 /* XCRemoteSwiftPackageReference "Reggie" */;
+			productName = Reggie;
+		};
+		3A82BE3A2357A2B70075BBB4 /* Reggie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A82BE372357A2360075BBB4 /* XCRemoteSwiftPackageReference "Reggie" */;
+			productName = Reggie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA7AABEF1E653F9E00D99296 /* Project object */;
 }
