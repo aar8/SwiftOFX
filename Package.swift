@@ -10,11 +10,13 @@ let package = Package(
             targets: ["SwiftOFX"]
         )
     ],
-    dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/stevebrun/Reggie.git", from: "0.2.3")
+    ],
     targets: [
         .target(
             name: "SwiftOFX",
-            dependencies: [Reggie],
+            dependencies: ["Reggie"],
             path: "Source",
             exclude: ["Info.plist"]
         ),
